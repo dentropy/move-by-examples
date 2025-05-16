@@ -1,0 +1,16 @@
+[package]
+name = "transfer_with_memo"
+version = "1.0.0"
+authors = []
+
+[addresses]
+transfer_with_memo = "_"
+# minter = "_"
+
+# [dev-addresses]
+# sender = "0xcafe"
+# minter = "0xbab"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-framework", rev = "mainnet" }
+
